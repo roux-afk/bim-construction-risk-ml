@@ -1,0 +1,32 @@
+# Виртуальное окружение
+venv/
+
+# MLflow (большие артефакты моделей внутри)
+mlruns/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Системные файлы macOS
+.DS_Store
+
+# Референсные ноутбуки (не часть проекта)
+civil-engineering-project-risk-analysis.ipynb
+multiclass-classification-with-automl-pycaret.ipynb
+pycaret-classification-using-automl.ipynb
+mlflow-pipeline-using-machine-learning.ipynb
+
+# Логи
+logs.log
+*.log
+
+# Временные файлы
+*.tmp
+*.bak
